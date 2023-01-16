@@ -1,0 +1,18 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.home-heading {
+  color: #551e53;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-image {
+    width: 80%;
+  }
+}

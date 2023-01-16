@@ -1,0 +1,38 @@
+.wave-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.wave-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #12022f;
+}
+.logo-container {
+  display: flex;
+}
+.links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  margin-bottom: 3px;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link {
+  color: #12022f;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .links {
+    width: 200px;
+  }
+}

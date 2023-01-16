@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.about-heading {
+  margin-top: 20px;
+  color: #551e53;
+}
+.text {
+  color: #555555;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-image {
+    width: 80%;
+  }
+}

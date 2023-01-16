@@ -1,0 +1,17 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contact-heading {
+  color: #551e53;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-image {
+    width: 80%;
+  }
+}
